@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<question type=multichoice>
+<question> type=<multichoice>
 	<name>
 		<text>Demo question à choix multiples</text>
 	</name>
-	<questiontext format=html>
+	<questiontext> format=<html>
 		<text>Quel est la bonne réponse ?</text>
-	</questiontext>
+	<questiontext>
 	<penalty>1</penalty>
 	<defaultgrade>1</defaultgrade>
 	<answer fraction="100">
@@ -13,7 +13,7 @@
 		<feedback>
 			<text>Bravo !</text>
 		</feedback>
-	</answer>
+	<answer>
 	<answer fraction="0">
 		<text>Une mauvaise réponse</text>
 		<feedback>
@@ -28,4 +28,4 @@
 	</answer>
 	<shuffleanswers>1</shuffleanswers>
 	<single>true</single>
-</question>
+<question>
